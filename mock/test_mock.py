@@ -3,8 +3,24 @@
 # pylint: disable=missing-function-docstring
 # pylint: disable=line-too-long
 """
-Lession 1: Mock
+Lesson 1: Mock
 Video: https://canvas.uw.edu/courses/1608479/pages/lesson-01-content-part-12-more-on-linting-mocks-and-patching?module_item_id=16955510
+
+Notes:
+    below commands must be executed in git bash terminal
+
+install coverage
+> pip install coverage
+
+install pylint
+> pip install pylint
+
+create .pylintrc (in root directory)
+> pylint --generate-rcfile > .pylintrc
+
+create requirements.txt (in root directory)
+> add coverage, pylint and mock
+
 
 Run Unittest CLI:
 > python -m unittest test_mock.py
